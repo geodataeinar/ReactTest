@@ -1,8 +1,10 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +12,44 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.btn-primary {
+  color: #337E7D!important;
+  background-color: #ebf4f4;
+  border: 2px solid #5c9a97!important;
+  padding: 9px;
+}
+.btn-primary:hover { background:#337E7D; border-color:#014145!important; color: white!important;}
+.btn-primary:active, .btn-primary:focus, .btn-primary:active:focus{ background:#337E7D; color: white!important; box-shadow: "inset 0px 1px 3px 0px rgba(0,0,0,0.50)";}
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover { background: #DDDDDD; color: #818181!important; border-color:#dad7d7!important; }
+.btn-third { background-color: #e9e9e9; border:1px solid #e9e9e9; color: #666; }
+.btn-third:hover { background: #dfdede; color: #464a4c;  }
+.btn-third:active { background:#dfdede;  color: #464a4c; box-shadow: "inset 0px 1px 3px 0px rgba(0,0,0,0.50)";}
+.btn-green { background-color: #009b96; border:1px solid #009b96; color: white; }
+.btn-green:hover { background: #337E7D; color: white;  }
+.btn-green:active { background:#337E7D;  color: white; box-shadow: "inset 0px 1px 3px 0px rgba(0,0,0,0.50)";}
+
+.btn-third span { color: #666; }
+.btn-danger { background-color: #e05061!important; border-color:#e05061!important; color: white!important;}
+.btn-danger2 {
+  background-color: white;
+  border-color: #e05061!important;
+  color: #e05061!important;
+  /* #212529 */
+}
+.btn-xs {
+padding: 0.4rem 0.5rem;
+font-size: .675rem;
+line-height: 1.5;
+border-radius: .2rem;
+}
+.miljodirlogotext {
+  font-weight: bold;
+  font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #006964;
+  line-height: 30px;
+  text-align: left;
 }

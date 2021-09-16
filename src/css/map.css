@@ -1,0 +1,47 @@
+.webmap {
+    height: 100%;
+    width: 100%;
+}
+
+
+.esri-ui-bottom-right {
+    flex-flow: column!important;   
+    margin: 10px; 
+}
+.esri-ui-bottom-right .esri-component { 
+    margin-bottom: 15px!important;
+}
+
+.basemapToggle{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    bottom: 215px;
+    right: 15px;
+    float: right;
+    /* align-items: flex-end;
+    flex-flow: column;
+    display: flex; */
+    background-image: url(../images/map_thumbnail_satelite.png);
+    z-index: 4;
+}
+
+.basemapToggleText {
+    width: 70px;
+    height: 20px;
+    background: white;
+    opacity: 0.7;
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    text-align: center;
+}
+
+.basemapToggleBilder {
+    background-image: url(../images/map_thumbnail_basic.png);
+}
+

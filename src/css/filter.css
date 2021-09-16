@@ -1,0 +1,87 @@
+#filterContainer {
+    /* height: 80px; */
+    background-color: #fff;
+    /* position: absolute; */
+    width: 80%;
+    font-size: smaller;
+    border-bottom: 0px !important;
+    /* display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; */
+}
+.opacity-1 {
+    opacity: 1 !important;
+}
+.white {
+    color:#fff;
+}
+.textblack {
+    color: #000;
+}
+.main-background {
+    background: #f0f0f0;
+}
+.inner-background {
+    background-color: #fff;
+}
+.border-radius-t {
+    border-radius: 10px 10px 0 0;
+}
+.border-radius-br {
+    border-radius: 0 0 10px 0;
+}
+.border-radius-bl {
+    border-radius: 0 0 0 10px;
+}
+.halffilter {
+    padding: 12px !important;
+}
+.halffilterleft {
+    margin-left: -5px;
+    margin-right: 5px;
+}
+.halffilterright {
+    margin-left: 5px;
+    margin-right: -5px;
+}
+.halffilterrow {
+    margin-top: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.text-right {
+    text-align: right !important;
+}
+.text-left {
+    text-align: left !important;
+}
+.text-left {
+    text-align: center !important;
+}
+.filterbutton {
+    /* position: absolute; */
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 100px;
+}
+.mt-1px {
+    margin-top: 1px;
+}
+.mb-1px {
+    margin-bottom: 1px;
+}
+.mb-2px {
+    margin-bottom: 2px;
+}
+.lh-38px {
+    line-height: 38px;
+}
+.lh-52px {
+    line-height: 52px;
+}

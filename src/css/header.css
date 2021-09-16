@@ -1,0 +1,10 @@
+#headerContainer {
+    height: 80px;
+    background: #d0e3e2;
+    /* position: absolute; */
+    width: 100%;
+    /* display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; */
+}
